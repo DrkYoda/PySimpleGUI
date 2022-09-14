@@ -43,7 +43,7 @@ def draw_axis():
             graph.draw_text(str(y), (-SIZE_X/11, y), color='blue', font='courier 10')
 
 # Create the graph that will be put into the window. Making outside of layout so have element in a variable
-graph = sg.Graph(canvas_size=(500, 500),
+graph = sg.Graph(canvas_size=(400, 400),
                  graph_bottom_left=(-(SIZE_X+5), -(SIZE_Y+5)),
                  graph_top_right=(SIZE_X+5, SIZE_Y+5),
                  background_color='white', expand_x=True, expand_y=True,

@@ -2,7 +2,6 @@ import os.path
 import sys
 import mmap, re
 import warnings
-
 import PySimpleGUI as sg
 
 __version__ = '1.8.0'
